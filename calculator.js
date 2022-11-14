@@ -88,6 +88,7 @@ for (var i = 0; i < keys_tab_td.length; i++) {
 minus_sign.onclick = function () {
     var str = show.innerHTML;
     flag_result = -1;
+    flag_1 = -1;
     // 分割字符串为单字符数组
     var arr = str.split("");
     if (arr[0] != '-') {
